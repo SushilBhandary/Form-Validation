@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="signup">
+            <h1 class="title">Sign Up</h1>
+            <p>Please fill in the form to create an account</p>
+            <br>
+            <form action="">
+                <div class="name">
+                    <input type="text" placeholder="First Name" id="FirstName">
+                    
+                    <input type="text" placeholder="Last Name" id="LastName">
+                </div>
+                <p class="error" id="e1">error</p>
+                <input type="text" placeholder="Email" id="email">
+                <p class="error" id="e3">error</p>
+                <input type="password" placeholder="Password" id="password">
+                <p class="error" id="e4">error</p>
+                <input type="password" placeholder="Confirm Password" id="confirmpassword">
+                <p class="error" id="e5">error</p>
+                <div class="term">
+                    <input type="checkbox" id="terms" >
+                    <label> I accept the <span>Terms of use</span> & <span>Privacy Policy</span></label>
+                </div>
+                <p class="error" id="e6">error</p>
+                <div id="butt">
+                    <button id="singup">Sign Up</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
