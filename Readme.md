@@ -6,7 +6,7 @@ The website focuses on learning to build webside only with HTML, CSS, JavaScript
 - querySelector
 - addEventListener
 
-## [Live Preview]()
+## [Live Preview](https://c-forms-validation.netlify.app/)
 
 ### SnapShot of the Webpage
 
